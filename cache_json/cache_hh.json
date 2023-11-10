@@ -578,6 +578,85 @@
         "is_adv_vacancy": false
     },
     {
+        "id": "89256461",
+        "premium": false,
+        "name": "Помощник программиста (удаленно)",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": {
+            "from": 40000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2023-11-09T13:22:53+0300",
+        "created_at": "2023-11-09T13:22:53+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89256461",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/89256461?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/89256461",
+        "relations": [],
+        "employer": {
+            "id": "9630133",
+            "name": "Smedia Buying Holding",
+            "url": "https://api.hh.ru/employers/9630133",
+            "alternate_url": "https://hh.ru/employer/9630133",
+            "logo_urls": {
+                "90": "https://hhcdn.ru/employer-logo/6025365.jpeg",
+                "240": "https://hhcdn.ru/employer-logo/6025366.jpeg",
+                "original": "https://hhcdn.ru/employer-logo-original/1101188.PNG"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9630133",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Рассматриваем кандидатов с базовыми знаниями без большого опыта! Асинхронное sqlalchemy (asyncpg). Loguru. Уметь работать с базами данных: MariaDB\\MySQL. PostreSQL. ",
+            "responsibility": "Модули:"
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "part",
+            "name": "Частичная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false
+    },
+    {
         "id": "89297080",
         "premium": false,
         "name": "Программист Python",
@@ -695,85 +774,6 @@
         "employment": {
             "id": "full",
             "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false
-    },
-    {
-        "id": "89256461",
-        "premium": false,
-        "name": "Помощник программиста (удаленно)",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "1",
-            "name": "Москва",
-            "url": "https://api.hh.ru/areas/1"
-        },
-        "salary": {
-            "from": 40000,
-            "to": null,
-            "currency": "RUR",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2023-11-09T13:22:53+0300",
-        "created_at": "2023-11-09T13:22:53+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89256461",
-        "show_logo_in_search": null,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/89256461?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/89256461",
-        "relations": [],
-        "employer": {
-            "id": "9630133",
-            "name": "Smedia Buying Holding",
-            "url": "https://api.hh.ru/employers/9630133",
-            "alternate_url": "https://hh.ru/employer/9630133",
-            "logo_urls": {
-                "90": "https://hhcdn.ru/employer-logo/6025365.jpeg",
-                "240": "https://hhcdn.ru/employer-logo/6025366.jpeg",
-                "original": "https://hhcdn.ru/employer-logo-original/1101188.PNG"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9630133",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Рассматриваем кандидатов с базовыми знаниями без большого опыта! Асинхронное sqlalchemy (asyncpg). Loguru. Уметь работать с базами данных: MariaDB\\MySQL. PostreSQL. ",
-            "responsibility": "Модули:"
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "remote",
-            "name": "Удаленная работа"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "noExperience",
-            "name": "Нет опыта"
-        },
-        "employment": {
-            "id": "part",
-            "name": "Частичная занятость"
         },
         "adv_response_url": null,
         "is_adv_vacancy": false
@@ -923,8 +923,8 @@
             "trusted": true
         },
         "snippet": {
-            "requirement": "Опыт тестирования высоконагруженных систем. Опыт работы с B2B продуктами. Опыт с PostgresQL. Опыт в автотестировании на <highlighttext>Python</highlighttext>.",
-            "responsibility": "Тестирование Web-микросервисной системы. Функциональное, регрессионное, интеграционное, e2e тестирование. Ведение релизов от этапа обсуждения требований до успешной выкатки..."
+            "requirement": null,
+            "responsibility": null
         },
         "contacts": null,
         "schedule": {
@@ -1149,6 +1149,91 @@
         "is_adv_vacancy": false
     },
     {
+        "id": "89312738",
+        "premium": false,
+        "name": "Разработчик Python",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": null,
+            "street": null,
+            "building": null,
+            "lat": 0.0,
+            "lng": 0.0,
+            "description": null,
+            "raw": "м. Нагатинская",
+            "metro": null,
+            "metro_stations": [],
+            "id": "179983"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2023-11-10T15:15:18+0300",
+        "created_at": "2023-11-10T15:15:18+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89312738",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/89312738?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/89312738",
+        "relations": [],
+        "employer": {
+            "id": "650939",
+            "name": "Интерпроком,ООО",
+            "url": "https://api.hh.ru/employers/650939",
+            "alternate_url": "https://hh.ru/employer/650939",
+            "logo_urls": {
+                "90": "https://hhcdn.ru/employer-logo/379996.jpeg",
+                "original": "https://hhcdn.ru/employer-logo-original/157882.jpg",
+                "240": "https://hhcdn.ru/employer-logo/452853.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=650939",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы с <highlighttext>Python</highlighttext>/Groovy от года. Глубокие знания принципов ООП. Понимание работы реляционных баз данных. Навыки написания простых SQL...",
+            "responsibility": "Развертывание и конфигурирование системы на уровне сервера приложения. Написание скриптовых сценариев на <highlighttext>Python</highlighttext> / Groovy. Разработка и проектирование интеграционных взаимодействий с..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false
+    },
+    {
         "id": "89169132",
         "premium": false,
         "name": "Python инженер",
@@ -1327,91 +1412,6 @@
         "experience": {
             "id": "noExperience",
             "name": "Нет опыта"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false
-    },
-    {
-        "id": "89312738",
-        "premium": false,
-        "name": "Разработчик Python",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "1",
-            "name": "Москва",
-            "url": "https://api.hh.ru/areas/1"
-        },
-        "salary": null,
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": {
-            "city": null,
-            "street": null,
-            "building": null,
-            "lat": 0.0,
-            "lng": 0.0,
-            "description": null,
-            "raw": "м. Нагатинская",
-            "metro": null,
-            "metro_stations": [],
-            "id": "179983"
-        },
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2023-11-10T15:15:18+0300",
-        "created_at": "2023-11-10T15:15:18+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89312738",
-        "show_logo_in_search": null,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/89312738?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/89312738",
-        "relations": [],
-        "employer": {
-            "id": "650939",
-            "name": "Интерпроком,ООО",
-            "url": "https://api.hh.ru/employers/650939",
-            "alternate_url": "https://hh.ru/employer/650939",
-            "logo_urls": {
-                "90": "https://hhcdn.ru/employer-logo/379996.jpeg",
-                "original": "https://hhcdn.ru/employer-logo-original/157882.jpg",
-                "240": "https://hhcdn.ru/employer-logo/452853.jpeg"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=650939",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Опыт работы с <highlighttext>Python</highlighttext>/Groovy от года. Глубокие знания принципов ООП. Понимание работы реляционных баз данных. Навыки написания простых SQL...",
-            "responsibility": "Развертывание и конфигурирование системы на уровне сервера приложения. Написание скриптовых сценариев на <highlighttext>Python</highlighttext> / Groovy. Разработка и проектирование интеграционных взаимодействий с..."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
         },
         "employment": {
             "id": "full",
