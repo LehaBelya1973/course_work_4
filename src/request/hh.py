@@ -10,8 +10,8 @@ class RequestHH(WorkWithAbstract):
         self.url = URL_HH
         self.keyword = keyword
         self.area = area
-        self.parameter = {'text': self.keyword, 'area': self.area}
+        self.parameter = {"text": self.keyword, "area": self.area}
 
     def request(self):
         responce = requests.get(self.url, self.parameter)
-        WorkWithJson.save_json(responce.json()['items'])
+        WorkWithJson.save_json(responce.json()["items"])
