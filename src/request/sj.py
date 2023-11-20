@@ -8,6 +8,7 @@ config = dotenv.dotenv_values(".env")
 
 class RequestsSJ(WorkWithJson):
     """Запрос на SuperJob"""
+
     def __init__(self, keyword, page=1) -> None:
         self.url = URL_SJ
         self.params = {"keywords": keyword, "page": page}

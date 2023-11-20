@@ -6,6 +6,7 @@ from config import JSON_HH
 
 class Vacancy(ABC):
     """Абстрактный класс для всех вакансий"""
+
     @classmethod
     @abstractmethod
     def get_data(cls):
@@ -14,6 +15,7 @@ class Vacancy(ABC):
 
 class VacancyHH(Vacancy):
     """Класс для вакансий с сайта HH"""
+
     def __init__(self, title: str, link: str, description: str, salary: dict) -> None:
         self.title = title
         self.link = link
@@ -48,6 +50,7 @@ class VacancyHH(Vacancy):
 
 class VacancySJ(Vacancy):
     """Класс вакансий с сайта SuperJob"""
+
     def __init__(self, title: str, link: str, description: str, salary: str):
         self.title = title
         self.link = link
