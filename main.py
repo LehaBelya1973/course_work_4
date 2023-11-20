@@ -1,7 +1,24 @@
-from src.data_json.work_with_json import WorkWithJson
 from src.request.hh import RequestHH
-from pprint import pprint as pp
+from src.request.sj import RequestsSJ
+from src.vacancy import VacancyHH, VacancySJ
 
-# a = RequestHH('python')
-#a.request()
-pp(WorkWithJson.read_json())
+
+def dialog():
+    """Функция помогает пользователю выбрать искомый сайт и профессию"""
+    print('Нажмите 1 для поиска по сайту SJ, нажмите 2 для поиска на HH')
+    site = int(input())
+    print('Введите ключевое слово для поиска: ')
+    key_word = input()
+    if site == 1:
+        a = RequestsSJ(key_word)
+        a.request()
+        VacancySJ.get_data()
+    elif site == 2:
+        b = RequestHH(key_word)
+        b.request()
+        VacancyHH.get_data()
+
+
+dialog()
+
+

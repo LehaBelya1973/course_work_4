@@ -1,9 +1,22 @@
 import json
+from abc import ABC, abstractmethod
 
 from config import JSON_HH
 
 
-class WorkWithJson:
+class WorkWithJsonAbstract(ABC):
+    @classmethod
+    @abstractmethod
+    def save_json(cls, data):
+        pass
+
+    @classmethod
+    @abstractmethod
+    def read_json(cls):
+        pass
+
+
+class WorkWithJson(WorkWithJsonAbstract):
     path = JSON_HH
 
     @classmethod
