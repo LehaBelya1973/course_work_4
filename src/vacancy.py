@@ -27,7 +27,8 @@ class VacancyHH(Vacancy):
             f"Вакансии: {self.title} \n"
             f"Сайт: {self.link} \n"
             f"Описание: {self.description} \n"
-            f"Зарплата: {self.salary['from'] if self.salary and self.salary['from'] else '-'}"
+            f"Зарплата: "
+            f"{self.salary['from'] if self.salary and self.salary['from'] else '-'}"
         )
 
     @classmethod
