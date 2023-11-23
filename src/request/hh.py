@@ -1,7 +1,7 @@
-from config import URL_HH
-from src.abstract_class_api import WorkWithAbstract
 import requests
 
+from config import URL_HH
+from src.abstract_class_api import WorkWithAbstract
 from src.data_json.work_with_json import WorkWithJson
 
 

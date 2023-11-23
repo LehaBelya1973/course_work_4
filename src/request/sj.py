@@ -1,20 +1,22 @@
+import dotenv
+import requests
+
 from config import URL_SJ
 from src.data_json.work_with_json import WorkWithJson
-import requests
-import dotenv
 
 config = dotenv.dotenv_values(".env")
 
 
 class RequestsSJ(WorkWithJson):
-    """Запрос на SuperJob"""
+    """Класс, который отправляет запрос на сайт по поиску работы SuperJob"""
 
     def __init__(self, keyword, page=1) -> None:
         self.url = URL_SJ
         self.params = {"keywords": keyword, "page": page}
 
     def request(self) -> dict:
-        """Запрос"""
+        """Метод класса, который обращается на сайт SJ по ключу и возвращает
+        файл в формате json с данными о вакансиях"""
         headers = {
             "X-Api-App-Id": "v3.r.112492319.a7c4a3d27213114ba6c67347ae3a6264084122a7.19153f63812efb61654ff50fcdf7d91e1c1c7cfb"
         }
