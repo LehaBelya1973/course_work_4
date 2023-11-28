@@ -7,20 +7,30 @@ from config import JSON_HH
 class Vacancy(ABC):
     """Абстрактный класс для всех вакансий"""
 
-    @classmethod
-    @abstractmethod
-    def get_data(cls):
-        pass
-
-
-class VacancyHH(Vacancy):
-    """Класс для вакансий с сайта HH"""
-
     def __init__(self, title: str, link: str, description: str, salary: dict) -> None:
         self.title = title
         self.link = link
         self.description = description
         self.salary = salary
+
+    @classmethod
+    @abstractmethod
+    def get_data(cls):
+        pass
+
+    def __gt__(self, other):
+        if isinstance(other, self.__class__):
+            return self.salary > other.salary
+        raise ValueError("Можно сравнивать только объекты вакансий")
+
+    def __lt__(self, other):
+        if isinstance(other, self.__class__):
+            return self.salary < other.salary
+        raise ValueError("Можно сравнивать только объекты вакансий")
+
+
+class VacancyHH(Vacancy):
+    """Класс для вакансий с сайта HH"""
 
     def __repr__(self):
         return (
@@ -45,18 +55,12 @@ class VacancyHH(Vacancy):
                         i["salary"],
                     )
                 )
-        for vacancy in vacancy_s:
+        for vacancy in sorted(vacancy_s):
             print(vacancy)
 
 
 class VacancySJ(Vacancy):
     """Класс вакансий с сайта SuperJob"""
-
-    def __init__(self, title: str, link: str, description: str, salary: str):
-        self.title = title
-        self.link = link
-        self.description = description
-        self.salary = salary
 
     def __repr__(self):
         return (
@@ -80,5 +84,5 @@ class VacancySJ(Vacancy):
                         i["payment_from"],
                     )
                 )
-        for vacancy in vacancy_s:
+        for vacancy in sorted(vacancy_s):
             print(vacancy)
