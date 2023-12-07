@@ -85,5 +85,5 @@ class VacancySJ(Vacancy):
                     )
                 )
         for vacancy in sorted(vacancy_s):
-            print(vacancy
+            print(vacancy)
 
